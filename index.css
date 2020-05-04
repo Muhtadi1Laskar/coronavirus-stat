@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #2EC4B6;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.card-one,
+.card-two,
+.card-three {
+    background: #FDFFFC;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.35);
+    border-radius: 15px;
+    padding: 2rem;
+    width: 372px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 21px;
+    margin-right: 2rem;
+}
+
+h3 {
+    font-family: Ponnala;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 70px;
+    border-bottom: 3px solid #2EC4B6;
+    background-color: white;
+    width: 20rem;
+    text-align: center;
+}
+
+#confirmed,
+#recovered,
+#death {
+    font-family: Phetsarath;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 73px;
+    margin-bottom: 1rem;
+
+}
+
+.date-one,
+.date-two,
+.date-three {
+    font-family: Phetsarath;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+
+.browser-default {
+    width: 550px;
+    border-radius: 5px;
+    background-color: ghostwhite;
+    margin-bottom: 2rem;
+}
+
+.graph-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 70rem;
+    background: #FDFFFC;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.35);
+    border-radius: 15px;
+}
+
+#myChart {
+    width: 2rem;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    .card-one,
+    .card-two,
+    .card-three {
+        width: 60rem;
+        margin: 2rem;
+
+    }
+
+    .card {
+        margin: 2rem;
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+
+    .card-one,
+    .card-two,
+    .card-three {
+        font-size: 60px;
+    }
+
+    img {
+        width: 70rem;
+        margin: 2rem;
+    }
+
+    .date-one,
+    .date-two,
+    .date-three {
+        font-size: 30px;
+    }
+}

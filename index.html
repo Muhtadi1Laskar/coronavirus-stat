@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <title>Corona Tracker</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="heading">
+            <img src="background.png" alt="" srcset="" />
+        </header>
+
+        <section class="cards">
+            <div class="card-one">
+                <h3>Total Confirmed</h3>
+                <span id="confirmed"></span>
+                <span class="date-one">Sun May 03 2020</span>
+            </div>
+            <div class="card-two">
+                <h3>Total Recovered</h3>
+                <span id="recovered"></span>
+                <span class="date-two">Sun May 03 2020</span>
+            </div>
+            <div class="card-three">
+                <h3>Total Death</h3>
+                <span id="death"></span>
+                <span class="date-three">Sun May 03 2020</span>
+            </div>
+        </section>
+
+        <section class="graph-div">
+            <select id="selects" class="browser-default">
+                <option value="Global">Global</option>
+            </select>
+
+            <div id="chart" class="card">
+                <canvas id="myChart" style="width: 50rem;"></canvas>
+            </div>
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
