@@ -8,7 +8,7 @@ html,
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: #2EC4B6;
+    background-color: #FF5DA2;
 }
 
 .container {
@@ -26,6 +26,7 @@ body {
     align-items: center;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    width: 34rem;
 }
 
 .cards {
@@ -42,7 +43,7 @@ body {
 .card-three {
     background: #FDFFFC;
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.35);
-    border-radius: 15px;
+    /* border-radius: 15px; */
     padding: 2rem;
     width: 372px;
     display: flex;
@@ -150,3 +151,4 @@ h3 {
     .date-three {
         font-size: 30px;
     }
+}
