@@ -42,7 +42,7 @@ body {
 .card-three {
     background: #FDFFFC;
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.35);
-/*     border-radius: 15px; */
+    border-radius: 25px;
     padding: 2rem;
     width: 372px;
     display: flex;
